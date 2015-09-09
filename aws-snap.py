@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# Copied for E.M. van Nuil / Oblivion b.v. and hacked to pieces by Joe Goldberg
+# This all did work perfectly before I got my hands on it
+
+
 from boto.ec2.connection import EC2Connection
 from boto.ec2.regioninfo import RegionInfo
 import boto.sns
