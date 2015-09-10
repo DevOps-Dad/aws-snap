@@ -1,8 +1,8 @@
 config = {
 
     # AWS credentials for the IAM user (alternatively can be set up as environment variables)
-    'aws_access_key': 'AKIAJBWTBNBTLLIXZYCQ',
-    'aws_secret_key': 'eEhlZNXdd8H78V3y0rK/ekiDCG4ph2L50wiNYBe8',
+    'aws_access_key': 'KEY',
+    'aws_secret_key': 'SECRETKEY',
 
     # EC2 info about your server's region
     'ec2_region_name': 'us-east-1',
@@ -22,7 +22,7 @@ config = {
     'log_file': '/var/log/makesnapshots.log',
 
     # ARN of the SNS topic (optional)
-    'arn': 'arn:aws:sns:us-east-1:243182379587:US-East-Snapshot_Status',
+    'arn': 'ARN ID',
 
     # Proxy config (optional)
     #'proxyHost': '10.100.x.y',
